@@ -1,0 +1,5 @@
+# eclipse project
+.project
+.settings
+.idea
+node_modules
