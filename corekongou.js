@@ -75,8 +75,8 @@ class BattleCruiser extends Client {
 		const h = (ms / 3600000 % 24).toFixed(2);
 		const da = (ms /(1000*60*60*24)).toFixed(1);
 		return {
-			hours: Math.floor(h) <= 1 ? `${h} hour` : `${h} hours`,
-			days: Math.floor(da) <= 1 ? `${da} day` : `${da} days`,
+			hours: Math.floor(h) <= 1 ? `${h} Jam` : `${h} Jam`,
+			days: Math.floor(da) <= 1 ? `${da} Hari` : `${da} Hari`,
 		};
 	};
 }
