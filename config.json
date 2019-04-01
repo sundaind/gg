@@ -1,4 +1,4 @@
 {
 	"token": process.env.TOKEN,
-	"googletoken": "AIzaSyDtnhiJiY9vZk-5rGwSDnGY8LyiaNfQRWs"
+	"googletoken": process.env.YT_API_KEY,
 }
