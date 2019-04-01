@@ -13,7 +13,7 @@ class BattleCruiser extends Client {
 		this.ytdl = require('ytdl-core');
 		this.cannons = new ErrorHandler(this);
 		this.handler = new CommandHandler(this);
-		this.youtube = new YoutubeAPI(Config.googletoken);
+		this.youtube = new YoutubeAPI(process.env.YT_API_KEY);
 		this.unavailable = new Set();
 		this.ratelimit = new Set();
 		this.persistence = new Enmap({ name: 'config', autoFetch: true, fetchAll: false });
