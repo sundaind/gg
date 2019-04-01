@@ -81,6 +81,6 @@ class BattleCruiser extends Client {
 	};
 }
 
-const Kongou = new BattleCruiser(Config.token, { compress: true, defaultImageFormat: 'webp', defaultImageSize: 256 });
+const Kongou = new BattleCruiser(process.env.TOKEN, { compress: true, defaultImageFormat: 'webp', defaultImageSize: 256 });
 
 Kongou.Sortie()
