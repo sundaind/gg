@@ -1,4 +1,4 @@
 {
-	"token": "NTYxNzg2NDYyMjk1Njg3MTcy.XKBmcg.CwpZTwore-JdjD0ctiGQ1DzMW5w",
+	"token": process.env.TOKEN,
 	"googletoken": "AIzaSyDtnhiJiY9vZk-5rGwSDnGY8LyiaNfQRWs"
 }
